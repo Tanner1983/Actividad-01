@@ -20,12 +20,12 @@ liquido = int(sueldoBase) - int(dscto)
 
 
 print('Se realizaran los siguientes descuentos')
-print(' Fonasa: ' + str(fonasa) + '\n Isapre: ' + str(isapre) + '\n Seguro: ' + str(seguro) + '\n Comision: ' + str(comision) + '\n adelanto: ' + str(adelanto))
+print(' Fonasa: ' , str(fonasa) , '\n Isapre: ' , str(isapre) , '\n Seguro: ' , str(seguro) , '\n Comision: ' , str(comision) , '\n adelanto: ' , str(adelanto))
 
-print('Don ' + nombre + ' ' + apellido + '  Cargo: ' + cargo)
-print('Sueldo Base: ' + str(sueldoBase))
+print('Don ' , nombre , ' ' , apellido , '  Cargo: ' , cargo)
+print('Sueldo Base: ' , str(sueldoBase))
 print('-----------------')
-print('Total descuento: ' + str(dscto))
+print('Total descuento: ' , str(dscto))
 print('-----------------')
-print('Sueldo liquido: ' + str(liquido))
+print('Sueldo liquido: ' , str(liquido))
 print('-----------------')

@@ -15,4 +15,4 @@ nota4 = input('Ingrese nota 4: ')
 promedio = (int(nota1) + int(nota2) + int(nota3) + int(nota4))/4
 
 
-print('Don ' + nombre + ' ' + apellido + ' su promedio de notas es: ' + str(promedio))
+print('Don ' , nombre , ' ' , apellido , ' su promedio de notas es: ' , str(promedio))
